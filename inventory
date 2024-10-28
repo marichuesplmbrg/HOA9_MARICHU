@@ -1,0 +1,14 @@
+[web_servers]
+192.168.56.120
+192.168.56.121 ansible_user=marichu
+
+[db_servers]
+192.168.56.118
+192.168.56.121 ansible_user=marichu
+
+[file_servers]
+192.168.56.118
+
+[workstations]
+192.168.56.120 
+192.168.56.118
